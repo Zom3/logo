@@ -207,15 +207,57 @@ font-size: 14px;
 }
 
 
+
 @media (max-width:560px){
+section .logo{
+position: absolute;
+left: 10px;
+top: 10px;
+}
+
+.menu{
+position: absolute;
+right: 10px;
+top: 10px;
+}
+
+.content{
+margin-left: 10px;
+margin-top: 100px;
+width: 400px;
+}
+
+#check{
+    display: none;
+}
+
+.media{
+position: absolute;
+display: flex;
+justify-content: center;
+top: 120%;
+left: 10%;
+
+}
+
+
+header{
+background: url(bg.jpg);
+background-size: cover;
+background-position: center;
+}
+
+
+
+
     .content .info h2{
         font-size: 35px;
         line-height: 40px;
         }
         
         .content .info h2 span{
-        font-size: 30px;
-        font-weight: 600;
+    font-size: 30px;
+font-weight: 600;
         }
         
         .content .info p{
